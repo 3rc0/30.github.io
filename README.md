@@ -6,7 +6,7 @@
 
 </head>
 <body>
-  <h1> Welcome</1>
+  <h1> Welcome</h1>
   <p> Just testing</p>
   </body>
   
