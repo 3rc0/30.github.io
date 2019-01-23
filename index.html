@@ -1,5 +1,13 @@
 <!DOCTYPE HTML>
-<?php
+
+<html>
+  <head> 
+    <script src="js/Filet3stf1l3.js"> </script>
+    test
+  </head>
+  <body>
+    
+    <?php
    class Database {
 	private $_connection;
 	private static $_instance; //The single instance
@@ -36,20 +44,6 @@
 	}
 }
 ?>
-<html>
-  <head> 
-    <script src="js/Filet3stf1l3.js"> </script>
-    test
-  </head>
-  <body>
-    
-    <?php
-                $query = "SELECT * FROM `testor`;";
-                $result = mysqli_query($db, $query);
-                while($row = mysqli_fetch_assoc($result)) {
-                      // Display your datas on the page
-                }
-          ?>
   Test
     <script>
       firstAlert();
