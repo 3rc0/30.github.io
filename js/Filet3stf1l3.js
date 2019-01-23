@@ -1,4 +1,4 @@
 function firstAlert(){
-document.write(alert("Hello\nHow are you?"));
+document.write(alert(" [@] CAUTION [@] \n Unstable website and does not suitable for normal user!!!!"));
 }
 
