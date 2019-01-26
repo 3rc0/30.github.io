@@ -1,3 +1,7 @@
+<?php
+include_once 'includes/t3st0r00.php';
+?>
+
 <!DOCTYPE HTML>
 
 <html>
