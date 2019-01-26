@@ -8,10 +8,10 @@ private $servername;
   private $charset;
   
   public function connect(){
-  $this->servername = "localhost";
-    $this->username = "root";
-    $this->password = "123456";
-    $this->dbname = "testdb";
+  $this->servername = "sql9.freemysqlhosting.net";
+    $this->username = "sql9275392";
+    $this->password = "jfMir2Xm4v";
+    $this->dbname = "sql9275392";
     $this->charset = "utf8mb4";
     
     try {
