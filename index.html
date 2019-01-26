@@ -35,7 +35,7 @@ $result = mysql_query($test_query);
 $tblCnt = 0;
 while($tbl = mysql_fetch_array($result)) {
   $tblCnt++;
-  #echo $tbl[0]."<br />\n";
+  echo $tbl[0]."<br />\n";
 }
 if (!$tblCnt) {
   echo "There are no tables<br />\n";
