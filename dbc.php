@@ -1,5 +1,5 @@
 <?php
-class Dbclass(){
+class Dbc(){
 $dbname = 'sql9275392;
 $dbuser = 'sql9275392';
 $dbpass = 'jfMir2Xm4v';
