@@ -5,6 +5,8 @@ body{
    background: url(image1.jpg);
   background-repeat: no-repeat;
   background-size: auto;
+   Justify-content: center;
+   align-items: center;
   }
   h1{
      text-align: center;
