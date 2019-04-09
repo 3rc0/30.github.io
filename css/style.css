@@ -7,6 +7,7 @@ body{
   }
 .images{
   margin: 10px 50px;
+  vertical-align: middle;
 }
 .images img{
   width: 230px;
