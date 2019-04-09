@@ -59,4 +59,5 @@ body{
 }
 
 #particles-js{
+   position: relative;
 }
