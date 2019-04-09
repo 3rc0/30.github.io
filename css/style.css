@@ -55,6 +55,6 @@ body{
 }
 
 #particles-js{
-    background-image: url('image1.jpg');
-    height: 100vh;
+   <!--   background-image: url('image1.jpg');
+  height: 100vh;-->
 }
