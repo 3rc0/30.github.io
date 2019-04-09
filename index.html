@@ -4,13 +4,18 @@
   <meta charset="utf-8">
 <title> Gallery Image</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
-  <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+ <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen">
+  <!--<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">-->
+  <link rel="stylesheet" href="css/lightbox.min.css">
+ <script src="js/lightbox.js"></script>
+  <!--<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>-->
+  <script src="js/lightbox-plus-jquery.min.js"></script>
 </head>
 <body>
 <h1>Gallery Media</h1>
 <div class="images">
   <a href="images/05.jpg" data-lighbox="mygallery" data-title="Took by d0 at Voronezh, RU"><img src="/images/05s.jpg"></a>
+  
    <a href="images/06.jpg" data-lighbox="mygallery"><img src="/images/06s.jpg"></a>
    <a href="images/07.jpg" data-lighbox="mygallery"><img src="/images/07s.jpg"></a>
    <a href="images/09.jpg" data-lighbox="mygallery"><img src="/images/09s.jpg"></a>
@@ -25,6 +30,11 @@
    <a href="images/18.jpg" data-lighbox="mygallery"><img src="/images/18s.jpg"></a>
 
   </div>
-
+<div>
+    <a class="example-image-link" href="images/06.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="/images/06s.jpg" alt=""/></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>
+    </div>
 </body>
 </html>
