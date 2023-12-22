@@ -1,3 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Table</title>
+</head>
+<body>
+
+<script>
+    // Data for the table
+    var tableData = [
+        ['NCC Iraq', 'IQ J Scout'],
+        ['Some Data 1', 'Some Data 2'],
+        ['More Data 1', 'More Data 2'],
+        // Add more rows as needed
+    ];
+
+    // Function to create the table
+    function createTable() {
+        var table = '<table border="1"><thead><tr>';
+
+        // Create table header
+        for (var col = 1; col <= tableData[0].length; col++) {
+            table += '<th>Column ' + col + '</th>';
+        }
+
+        table += '</tr></thead><tbody>';
+
+        // Create table rows and cells
+        for (var row = 0; row < tableData.length; row++) {
+            table += '<tr>';
+            for (var col = 0; col < tableData[row].length; col++) {
+                table += '<td>' + tableData[row][col] + '</td>';
+            }
+            table += '</tr>';
+        }
+
+        table += '</tbody></table>';
+
+        // Display the table in the body
+        document.body.innerHTML = table;
+    }
+
+    // Call the function to create the table
+    createTable();
+</script>
+
+</body>
+</html>
+
+
+
 ## Top Job Portals and Recruitment Agencies in Iraq - Comprehensive List
 
 
